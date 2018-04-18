@@ -39,16 +39,95 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="http://impactgameworks.com/">Impact Game Works</a>
+                <a class="navbar-brand active" href="http://impactgameworks.com/">Impact Game Works</a>
               </div>
               <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="#top">Getting Started</a></li>
-                  <li><a href="#monsters">Monsters</a></li>
-                  <li><a href="#universal">Items</a></li>
-                  <li><a href="#shops">Shops</a></li>
-                  <li><a href="#portraits">Visual Mods</a></li>
-                  <li><a href="#weaponfx">Appendices</a></li>
+                  <li><a href="#top">Contents Index</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Getting Started <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#overview">Content Generation Overview</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#requirements">Technical Requirements</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#validation">Validating and Testing Your Mod</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#conflicts">Mod Conflicts</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="http://impactgameworks.com/ReferenceXML">Browse Core XML Content</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="http://tangledeep.com/Spritesheets">Browse Core Spritesheets</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Monsters <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#monsters">Monster Templates</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#spawntables">Monster Spawn Tables</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Items <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#universal">Universal Item Attributes</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#consumables">Consumables</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#equipment">Equipment</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#weapons">Weapons</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#armor">Armor</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#offhand">Offhands</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#accessories">Accessories</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#gearsets">Gear Sets</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dungeons & Shops <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#dungeonrooms">Dungeon Rooms</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#dungeonfloors">Dungeon Floors</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#mapobjects">Map Objects</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#shops">Shops</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#loottables">Loot Tables</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visual Mods <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#portraits">Job Portraits</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#spritesheets">Job, NPC, and Monster Spritesheets</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Appendices <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#weaponfx">Appendix: Weapon Sprite Effects</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#objectprefabs">Appendix: Map Object Prefabs</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#sprites">Appendix: Item Sprites</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#magicmods">Appendix: Magic Mods</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#abilities">Appendix: Abilities</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#statusbonus">Appendix: Status Bonuses</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#monsterprefabs">Appendix: Monster Prefabs</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -89,7 +168,7 @@
 								<li><a href="#mapobjects">Map Objects</a></li>
 								<li><a href="#portraits">Job Portraits</a></li>
 								<li><a href="#validation">Validating and Testing Your Mod</a></li>
-								<li><a href="/ReferenceXML">Browse Core XML Content</a></li>
+								<li><a href="http://impactgameworks.com/ReferenceXML/">Browse Core XML Content</a></li>
 								<li><a href="http://tangledeep.com/Spritesheets">Browse Core Spritesheets</a></li>
 								<li><a href="#weaponfx">Appendix: Weapon Sprite Effects</a></li>
 								<li><a href="#objectprefabs">Appendix: Map Object Prefabs</a></li>
@@ -227,6 +306,7 @@ MySecondFile.xml	ITEMS</code></pre>
 									<li><strong>Rank</strong>: Item rank used to calculate where the item drops. Values range 1-10.</li>
 									<li><strong>DropRate</strong>: Weighted drop rate of item. 100 is average. Values range 1 to 9999. By setting a DropRate, the item will be automatically added to the simplest loot table types such as Consumables, Weapons, Equipment, etc. as appropriate. You can alternatively omit this node, and modify existing loot tables with a new XML file.</li>
 									</ul>
+
 									<strong>Optional Universal Attribute Nodes</strong>
 									<ul>
 									<li><strong>ReplaceRef</strong>: Boolean. When enabled, if the <em>RefName</em> of this item matches an existing item in the game's core data, your content will REPLACE it. However, your item type must match the original item type. This must be placed <strong>ABOVE</strong> the <strong>RefName</strong> node.</li>
@@ -3052,16 +3132,7 @@ MySecondFile.xml	ITEMS</code></pre>
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/jquery.min.js.pagespeed.jm.iDyG3vc4gw.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js+util.js.pagespeed.jc.3WOIVS-am1.js"></script><script>eval(mod_pagespeed_u3egeR7zV6);</script>
-			<script>eval(mod_pagespeed_3foKRL8HNr);</script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script>
-      //<![CDATA[
-        (function($){"use strict";skel.breakpoints({xlarge:'(max-width: 1680px)',large:'(max-width: 1280px)',medium:'(max-width: 980px)',small:'(max-width: 736px)',xsmall:'(max-width: 480px)'});$(function(){var $window=$(window),$body=$('body'),$header=$('#header'),$banner=$('#banner');$body.addClass('is-loading');$window.on('load',function(){window.setTimeout(function(){$body.removeClass('is-loading');},100);});$('form').placeholder();skel.on('+medium -medium',function(){$.prioritize('.important\\28 medium\\29',skel.breakpoint('medium').active);});if(skel.vars.IEVersion<9)$header.removeClass('alt');if($banner.length>0&&$header.hasClass('alt')){$window.on('resize',function(){$window.trigger('scroll');});$banner.scrollex({bottom:$header.outerHeight(),terminate:function(){$header.removeClass('alt');},enter:function(){$header.addClass('alt');},leave:function(){$header.removeClass('alt');}});}var $menu=$('#menu');$menu._locked=false;$menu._lock=function(){if($menu._locked)return false;$menu._locked=true;window.setTimeout(function(){$menu._locked=false;},350);return true;};$menu._show=function(){if($menu._lock())$body.addClass('is-menu-visible');};$menu._hide=function(){if($menu._lock())$body.removeClass('is-menu-visible');};$menu._toggle=function(){if($menu._lock())$body.toggleClass('is-menu-visible');};$menu.appendTo($body).on('click',function(event){event.stopPropagation();$menu._hide();}).find('.inner').on('click','.close',function(event){event.preventDefault();event.stopPropagation();event.stopImmediatePropagation();$menu._hide();}).on('click',function(event){event.stopPropagation();}).on('click','a',function(event){var href=$(this).attr('href');event.preventDefault();event.stopPropagation();$menu._hide();window.setTimeout(function(){window.location.href=href;},350);});$body.on('click','a[href="#menu"]',function(event){event.stopPropagation();event.preventDefault();$menu._toggle();}).on('keydown',function(event){if(event.keyCode==27)$menu._hide();});});})(jQuery);
-      //]]>
-      </script>
+
 
     <!-- NEW SCRIPTS   -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -1,13 +1,26 @@
+#wrapper header {
+  padding-top: 100px;
+}
+
+#wrapper > header .inner {
+  width: 65em;
+}
+
+a {
+  color: #acc7da;
+}
+
+.wrapper .inner {
+  width: 65em;
+}
 
 .navbar-wrapper a {
     border-bottom: dotted 0px;
+    /* color: #ffffff; */
 }
 
 .navbar-inverse .navbar-brand {
   color: #337ab7;
-}
-
-.navbar-brand {
   font-family: sans-serif;
   font-size: 18px;
   line-height: 23px;
@@ -32,14 +45,4 @@ h2.major {
   line-height: 1.42857143;
   color: #333;
   white-space: nowrap;
-}
-
-code {
-  background: rgba(255, 255, 255, 0.025);
-  border-radius: 5px;
-  border: solid 2px rgba(255, 255, 255, 0.125);
-  font-family: "Courier New", monospace;
-  font-size: 0.9em;
-  margin: 0 0.25em;
-  padding: 0.25em 0.65em;
 }
